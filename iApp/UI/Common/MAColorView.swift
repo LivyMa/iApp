@@ -10,8 +10,4 @@ import UIKit
 
 class MAColorView: MAView {
     
-    init() {
-        self = MAView.xib(name: "MAColorView")
-    }
-
 }

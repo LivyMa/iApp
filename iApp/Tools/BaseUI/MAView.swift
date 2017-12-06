@@ -10,7 +10,6 @@ import UIKit
 
 class MAView: UIView {
 
-
 }
 
 extension MAView {

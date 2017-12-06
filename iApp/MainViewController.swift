@@ -19,8 +19,15 @@ class MainViewController: UITabBarController {
     
     fileprivate func setupUI() {
         self.view.backgroundColor = UIColor.baseColor()
+        self.view.addSubview(MAColorView.xib(name: "MAColorView"))
+    }
+    
+}
+
+extension UITabBarController {
+    
+    fileprivate func addChildViewController(SBName: String) {
         
-        addChildViewController(<#T##childController: UIViewController##UIViewController#>)
     }
     
 }
